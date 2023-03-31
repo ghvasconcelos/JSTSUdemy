@@ -26,4 +26,13 @@ let temp = num1 * 'Ola';
 //console.log(Number.isNaN(temp));
 //Desse metodo verifica se é um Numero ou não.
 
+// num1 = parseFloat(num1.tofixed(2));
+//dessa forma conseguiria deixar ele como numero inteiro pois na hora do
+// console.log(Number.isInteger(num1));
+//ele estaria como false, e o numero precisa estar como 1 2 3 e não numero quebrado como 1.1 1.2
+// Outra forma de resolver seria usando a matematica por exemplo
+// num1 = ((num1 * 100) + (num2 * 100)) /100;
+
+//mas a melhor forma é 
+// num1 = Number(num1.toFixed(2));
 
