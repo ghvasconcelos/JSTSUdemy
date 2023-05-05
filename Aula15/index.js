@@ -9,3 +9,5 @@ let num1 = 9.45;
 //Pode utilizar Math.round para arredondar por exemlo Math.round(Math.random());
 //Math.pow(2, 10);(2 Elevado a 10) ---> Potenciação ou pode se usar ** /// 2 ** 10
 //Para raiz quadrada pode se utilizar X ** (1/2)(ou 0.5);
+//no JS numeros divididos por 0 serão avaliados como verdadeiros por terem o valor "Infinity"
+//
