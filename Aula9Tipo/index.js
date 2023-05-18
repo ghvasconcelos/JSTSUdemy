@@ -11,4 +11,3 @@ const aprovado = true;
 const reprovado = false; // Boolean = true ou false (valor logico)
 
 console.log(typeof nome); //TypeOf pra ver o tipo da string
-
